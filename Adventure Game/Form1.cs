@@ -109,6 +109,7 @@ namespace Adventure_Game
                     blueLabel.Text = "down";
                     break;
                 case 7:
+                    sceneImage.BackgroundImage = Properties.Resources.Cave;
                     outputLabel.Text = "You leave the old ruins and come across a cave";
                     redLabel.Text = "";
                     blueLabel.Text = "press space to continue";
