@@ -103,6 +103,16 @@ namespace Adventure_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Key_Room {
+            get {
+                object obj = ResourceManager.GetObject("Key_Room", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Old_Armory {
             get {
                 object obj = ResourceManager.GetObject("Old_Armory", resourceCulture);
@@ -123,9 +133,29 @@ namespace Adventure_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Spider_Area {
+            get {
+                object obj = ResourceManager.GetObject("Spider_Area", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Treasure_Chest {
             get {
                 object obj = ResourceManager.GetObject("Treasure_Chest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap YouAreDead {
+            get {
+                object obj = ResourceManager.GetObject("YouAreDead", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

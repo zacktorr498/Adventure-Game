@@ -82,28 +82,33 @@ namespace Adventure_Game
                     redLabel.Text = "Enter";
                     blueLabel.Text = "Pass";
                     break;
-                case 2: 
+                case 2:
+                    sceneImage.BackgroundImage = Properties.Resources.Old_Ruins;
                     outputLabel.Text = "You enter the ruins. there is a doorway to the left and a stair case going down to the right. ";
                     redLabel.Text = "Left";
                     blueLabel.Text = "Right";
                     break;
                 case 3:
-                    outputLabel.Text = "You find a glass case with a key inside. its chained shut but there is enough space for you to fit you hand through.";
+                    sceneImage.BackgroundImage = Properties.Resources.Key_Room;
+                    outputLabel.Text = "You find a glass case with a key inside.";
                     redLabel.Text = "Grab it";
                     blueLabel.Text = "Leave it";
                     break;
                 case 4:
+                    sceneImage.BackgroundImage = Properties.Resources.Spider_Area;
                     outputLabel.Text = "You walk down the stairs to a group of spiders and a locked door.";
                     redLabel.Text = "";
                     blueLabel.Text = "press space to continue";
                     break;
                 case 5:
-                    outputLabel.Text = "you slip your hand through the case and grab the key. " +
+                    sceneImage.BackgroundImage = Properties.Resources.Old_Ruins;
+                    outputLabel.Text = "you grab the key. " +
                         "There is nothing else in the room so you leave. Now back at the 2 doorways.";
                     redLabel.Text = "Leave";
                     blueLabel.Text = "Go down stairs";
                     break;
                 case 6:
+                    sceneImage.BackgroundImage = Properties.Resources.Old_Ruins;
                     outputLabel.Text = "There is nothing else in the room so you leave and your back in front of the 2 doors";
                     redLabel.Text = "leave";
                     blueLabel.Text = "down";
@@ -115,11 +120,13 @@ namespace Adventure_Game
                     blueLabel.Text = "press space to continue";
                     break;
                 case 8:
+                    sceneImage.BackgroundImage = Properties.Resources.Spider_Area;
                     outputLabel.Text = "You walk down the stairs and see some spiders up ahead. there is a room to your left.";
                     redLabel.Text = "Attempt to fight";
                     blueLabel.Text = "Check out the room ";
                     break;
                 case 9:
+                    sceneImage.BackgroundImage = Properties.Resources.YouAreDead;
                     outputLabel.Text = "You die trying to fight the spiders with your bare hands";
                     redLabel.Text = "Retry";
                     blueLabel.Text = "Quit";
@@ -132,6 +139,7 @@ namespace Adventure_Game
                     blueLabel.Text = "Leave";
                     break;
                 case 11:
+                    sceneImage.BackgroundImage = Properties.Resources.Spider_Area;
                     outputLabel.Text = "You kill all the spiders but the sword is now chipped. You see a chest behind a bunch of cobwebs" +
                         "You cut apart the cobwebs to uncover a big chest with a lock on it. " +
                         "You unlock it with the key to revel a giant, shiny sword. after looking at the sword, you take it, " +
@@ -185,6 +193,7 @@ namespace Adventure_Game
                     blueLabel.Text = "press space to continue";
                     break;
                 case 19:
+                    sceneImage.BackgroundImage = Properties.Resources.YouAreDead;
                     outputLabel.Text = "You didn't have a weapon to fight the bear so you decided to try fighting it with your bare hands and got teared apart.";
                     redLabel.Text = "Retry";
                     blueLabel.Text = "Quit";
